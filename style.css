@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #374151;
+    height: 100%;
+}
+
+.app-div {
+    margin: 2em auto;
+    padding: 0 1em;
+    color: white;
+    background-color: #282828;
+    width: 80vw;
+    max-width: 500px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.5em;
+    /* https://medium.com/@miguelznunez/html-css-how-to-split-a-background-into-2-colors-1cdc394deb3d */
+    background: linear-gradient(
+        to top,
+        #282828 0%,
+        #282828 70%,
+        #B5AC49  50%,
+        #3CA55C 100%
+    )
+}
+
+/* Buttons */
+.btn {
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    border-radius: 0.5em;
+    font-weight: 100;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-secondary {
+    width: 50%;
+
+}
+
+
+.btn-coffee, .btn-secondary {
+    background-color: transparent;
+    border: 1px solid #D9D9D9;
+    color: whitesmoke;
+}
+
+.btn-primary {
+    border: none;
+    background-color: #3CA55C;
+    /* https://uigradients.com/#LemonTwist */
+     /* background-image: linear-gradient(#3CA55C, #B5AC49); */
+    /* background-color: #ED5D3F; */
+    color: white;
+    width: 50%;
+}
+
+btn-large {
+    width: 50%;
+}
+
+/*  // EDD13F color for gradient */
+
+
+/* "Header" section */
+
+.top-about-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-about-div h4 {
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+/* About section */
+
+.profile-img {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 0.6em 0 0 0.6em;
+}
+
+.profile-text {
+    display: flex;
+    justify-content: center;
+    background-color: #0E0E0E;
+    flex-direction: column;
+    padding: 1em;
+    width: 50%;
+    border-radius: 0 0.6em 0.6em 0;
+}
+
+.profile-text h2 {
+    margin: 0
+}
+
+.mid-about-div {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 0.6em;
+}
+
+.about-div h2 {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-div p {
+    color: lightgray;
+    font-size: 0.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about-div > .button-wrapper {
+    width: 100%;
+    display: flex;
+    margin-top: 1.5em;
+    gap: 0.3em;
+    justify-content: space-between
+}
+
+.button-wrapper > button {
+    width: 49.9%
+}
+
+/*  Info section */
+
+.info-div {
+    width: 100%;
+    overflow-y: auto;
+    height: 250px;
+    padding: 0;
+    margin-top: 1.5em;
+}
+
+.info-div p {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+    color: lightgray;
+    margin-bottom: 1em
+}
+
+.info-div h3 {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    margin: 0;
+}
+
+.qr {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display:block;
+    margin-top: 2em
+}
+/* Footer section  */
+.footer-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.social-row {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.social-item {
+    width: 20px;
+    height: 20px;
+}
+
+.social-div {
+    background-color: #0E0E0E;
+    padding: 0.5em 0.7em;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+
+.social-div a {
+     color: #3CA55C;
+    text-decoration: none;
+    font-size: 1.5rem
+}
